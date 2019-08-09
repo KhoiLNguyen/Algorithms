@@ -11,9 +11,7 @@ function areSimilar(a, b) {
             bd.push(b[i])
         }
     }
-    console.log(ad)
-    console.log(bd)
-    
+
     // after that determines if they are similar
     // If all respected values are equal, length of ad and bd === 0 => both a and b are similar
     // If length ad and bd === 2, that means first value of ad could be equal to either one of the 2
